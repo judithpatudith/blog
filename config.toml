@@ -2,6 +2,7 @@ baseURL = "https://judithpatudith.github.io/"
 languageCode = "en-us"
 title = "Tech 4 N00bs"
 theme = "ananke"
+sectionPagesMenu = "main"
 [params]
   author = "Judith E.L. Malnick"
   description = "Why does it work like that?"
