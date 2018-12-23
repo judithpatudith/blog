@@ -1,4 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Judith E.L. Malnick"
+title = "Tech 4 N00bs"
 theme = "ananke"
+[params]
+  author = "Judith E.L. Malnick"
+  description = "Why does it work like that?"
