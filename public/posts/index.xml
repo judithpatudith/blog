@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Tech 4 N00bs</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on Tech 4 N00bs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 May 2018 10:39:17 -0800</lastBuildDate>
+    
+	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Git for Skeptics: Part 1 - Why do I need a million copies of this folder?</title>
+      <link>http://example.org/posts/git-for-skeptics-1/</link>
+      <pubDate>Tue, 08 May 2018 10:39:17 -0800</pubDate>
+      
+      <guid>http://example.org/posts/git-for-skeptics-1/</guid>
+      <description>Why write another intro to Git? I feel nervous using systems that I don’t understand. When I started work as Mesosphere’s community manager, I needed to learn a basic Git workflow quickly so that I could begin maintaining our open source project’s website right away. But, I had a hard time understanding the workflow because I didn’t quite understand the point of using Git.
+The process of forking, cloning, pulling, branching, saving, testing, adding, commenting, committing, pushing, testing again, discussing, and then going six rounds of this process — just to improve website copy — seemed like gross, jargony overkill.</description>
+    </item>
+    
+  </channel>
+</rss>
