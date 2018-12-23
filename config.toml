@@ -1,0 +1,4 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Judith E.L. Malnick"
+theme = "ananke"
