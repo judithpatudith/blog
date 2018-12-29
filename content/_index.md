@@ -1,5 +1,9 @@
 # Tech doesn't make sense to beginners
 
-My training is in evolutionary developmental biology, where random mutation and ever-changing selection shape the world. Coming into tech, I was excited about the prospect of working in a field where all the systems were built by humans, and where everything exists for a reason.
+My training is in evolutionary developmental biology, a field where randomness
+rules. When I got a job in tech, I was excited to work with logical systems
+built by humans.
 
-That reason isn't always clear, and tech can be a confusing place for beginners. Even processes built on purpose can seem random at times. I'm setting out to explain these processes, and help the world make sense.
+But I'm slowly discovering that the logic I had hoped for isn't always obvious,
+especially to beginners like me. So here I set out to explain things as I figure
+them out.
