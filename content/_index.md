@@ -1,10 +1,10 @@
 ---
 title: ""
+featured_image: '/orangepeel.jpg'
 description: "Tech is confusing for beginners like me"
-featured_image: ''
 ---
 
-# Bulit by humans, still confusing.
+# Built by humans, still confusing.
 
 My training is in evolutionary developmental biology, a field where randomness
 rules. When I got a job in tech, I was excited to work with logical systems
