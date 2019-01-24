@@ -6,3 +6,7 @@ sectionPagesMenu = "main"
 [params]
   author = "Judith E.L. Malnick"
   description = "Why does it work like that?"
+  favicon = "Hi_profile.png"
+  twitter = "https://twitter.com/judithpatudith"
+  github = "https://github.com/judithpatudith"
+  featured_image = "/orangepeel.jpg"
