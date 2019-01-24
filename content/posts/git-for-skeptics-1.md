@@ -1,5 +1,6 @@
 ---
 title: "Git for Skeptics: Part 1 - Why do I need a million copies of this folder?"
+featured_image: '/images/trevor-cole-389921-unsplash.jpg'
 date: 2018-05-08T10:39:17-08:00
 draft: false
 ---
@@ -10,6 +11,9 @@ I feel nervous using systems that I don’t understand. When I started work as M
 The process of forking, cloning, pulling, branching, saving, testing, adding, commenting, committing, pushing, testing again, discussing, and then going six rounds of this process — just to improve website copy — seemed like gross, jargony overkill. It filled me with annoyance, which made the workflow hard to learn.
 
 So, this post and the next one aren’t tutorials or walkthroughs. They’re basic overviews meant to describe a typical Git workflow, and explain the purpose of each step. I hope they can serve as a framework for people who don’t find joy in mechanics but will value them once they understand how those mechanics fit into the bigger picture.
+
+![Photo by Trevor Cole on Unsplash](/images/trevor-cole-389921-unsplash.jpg)
+_[Photo by Trevor Cole on Unsplash](https://unsplash.com/photos/IdYeC0NqNls)_
 
 # Why do people use Git?
 
@@ -61,6 +65,9 @@ GitHub provides an online GUI for editing files stored there, but using it isn�
 - You can’t test any files you’re editing while they’re online, which makes it hard to know whether you’re fixing things or introducing new mistakes.
 - Saving modifications online using GitHub creates an official record of each save. If you’re working on a file and need to save it multiple times, all these extra records could confuse the person who ultimately has to approve your work.
 
+![Photo by Jens Lelie on Unsplash](/images/jens-lelie-15662-unsplash.jpg)
+_[Photo by Jens Lelie on Unsplash](https://unsplash.com/photos/u0vgcIOQG08)_
+
 ## Your local copy (clone).
 
 To properly make and test your edits, you’ll need a local copy of the repo on your personal computer. Making changes locally separates your work-in-progress and testing from the approval process.
@@ -73,6 +80,9 @@ Downloading a copy of a repo is called “cloning.” Cloning a repo isn’t the
 
 The copy of the repo you download will serve as your sandbox. It’s where you mess things up, try things out, and ultimately make the changes you want. Git doesn’t automatically create any records for the changes you save in this repo. You will tell it which files you want to be included in a given record later on.
 
+![Photo by Sam Carter on Unsplash](/images/sam-carter-191161-unsplash.jpg)
+_[Photo by Sam Carter on Unsplash](https://unsplash.com/photos/GHOiyov2TSQ)_
+
 ## Your separate pieces work (branch).
 
 Often one contributor will be working on multiple different changes to the same repo. To account for this, Git lets you create many different versions of the same repo, called “branches.” Ultimately when you ask someone to review changes, you will ask them to accept or reject all the edits on a single branch.
@@ -80,6 +90,10 @@ Often one contributor will be working on multiple different changes to the same 
 For example, I might be simultaneously working on unrelated changes to dcos.io/releases and dcos.io/community. My boss might need to accept my edits to the community page, and another manager might need to accept my edits to the releases page. Git version control lets me keep these two sets of changes on separate branches (even though I’m working on both at the same time) so that I can ultimately submit them to two different approvers.
 
 Even if the same person will review all your changes, it’s still kind to keep unrelated pieces of work separate. It makes it much easier for your reviewer to understand the goal of your changes and accept them later.
+
+![Photo by Ravi Roshan on Unsplash](/images/ravi-roshan-277398-unsplash.jpg)
+_[Photo by Ravi Roshan on Unsplash](https://unsplash.com/photos/OhE6wMahECM)_
+
 
 ### The relationship between branches and the repo’s directory.
 
@@ -89,6 +103,6 @@ When you switch to a different branch of the repo, most of the files in your dir
 
 Maintainers can only review changes that have been added to a branch. Branches tell them which version of your repo to compare to which version of theirs.
 
-# For Mechanics see Part 2.
+# For Mechanics see [Part 2](/posts/git-for-skeptics-2/).
 
 In this post, we’ve gone over all the copies of a project that you need to make in order to propose edits: your online copy which you have permissions for, your offline copy for testing, and the many versions of your offline copy, where you store separate pieces of work. In the next post, we’ll discuss how to make changes, select which ones to include in your change requests, and how to put them on the online where project maintainers can review them.

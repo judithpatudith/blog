@@ -1,5 +1,5 @@
 ---
 title: "Blog"
-featured_image: '/genetics.jpg'
+featured_image: 'images/genetics.jpg'
 description: "Tool intros for new techies"
 ---

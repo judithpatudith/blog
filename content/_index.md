@@ -1,6 +1,6 @@
 ---
 title: ""
-featured_image: '/orangepeel.jpg'
+featured_image: 'images/orangepeel.jpg'
 description: "Tech is confusing for beginners like me"
 ---
 
