@@ -1,5 +1,6 @@
 ---
 title: "Git for Skeptics: Part 2 - Why is saving changes so freaking complicated?"
+featured_image: '/images/luke-van-zyl-562366-unsplash.jpg'
 date: 2018-11-08T11:22:03-08:00
 draft: false
 ---
@@ -10,6 +11,9 @@ In this post, I’ll explain why saving a change with Git is so complicated. Eac
 # What’s the point of Git history?
 
 When I first started using Git, I thought I was creating a record of my edits so that maintainers could back out my changes if I made a mistake. I was confused about why Git included so many tools for editing change records if the whole point was to keep track of the work I had done.
+
+![Photo by Giammarco Boscaro on Unsplash](/images/giammarco-boscaro-380907-unsplash.jpg)
+[_Photo by Giammarco Boscaro on Unsplash_](https://unsplash.com/photos/zeH-ljawHtg/)
 
 What I’ve learned is that Git history isn’t intended to tell the story of my editing process. Instead, it’s supposed to explain what changes I want to make to a file and why. It should help my reviewers evaluate:
 
@@ -38,6 +42,9 @@ As we discussed in the previous post, whenever you look at a Git repo, you are a
 
 When you clone a repo (download it from GitHub), it already has one or more branches in it. You must base your edits on the branch that you ultimately want to change. That way the only differences between the original branch and your new one should be the changes you propose.
 
+![Photo by Luke van Zyl on Unsplash](/images/luke-van-zyl-562366-unsplash.jpg)
+[_Photo by Luke van Zyl on Unsplash_](https://unsplash.com/photos/zrT3d_PI8YA/)
+
 Creating a new branch for your changes protects your copy of the original branch from mistakes. If you mess up while editing and accidentally commit unwanted changes, you can always create another new branch from the original version and start over. If you edit the original directly, it’s more complicated to start over when things get too weird to fix.
 
 Making a new copy of the branch also helps keep your local repo synchronized with the online copy. Git can easily update local branches from the corresponding branch online — if you haven’t changed the local branch since you last synced it with the online one. So, if you plan to propose changes to the same branch frequently, you only want to change the local branch by pulling in approved changes from the online copy. If you don’t own the repository you are contributing to you can set up your local copy to update from the official online copy instead of your online copy, by adding it as a “remote.” Your local branch then updates with all the newest changes, not just the ones you made yourself.
@@ -56,6 +63,9 @@ For example, the repos for many websites contain code that builds the website on
 
 GitHub can’t provide an environment to run tests in the same way that your computer can, and for complicated changes, it’s powerful to get immediate feedback as you work, especially if you’re new to coding. Testing is one of the main reasons to make a local copy of your repo, and you should definitely test if you can. I like to start my tests before I even begin editing, so I know I’m not starting with broken code.
 
+![Photo by rawpixel on Unsplash](/images/rawpixel-602156-unsplash.jpg)
+[_Photo by rawpixel on Unsplash_](https://unsplash.com/photos/cFHTKGEiMbY)
+
 Git isn’t keeping a record of saved changes in your directory yet or adding them to any particular branch. It’s annoying that saving changes isn’t enough to edit a file with Git, but there’s a reason: it gives you the ability to experiment without creating Git history and avoids confusing your reviewers with your trial and error. Requiring that you explicitly add changes to the Git record is the control part of version control. Once you’re happy with a change, you can add it to your branch. Before you’re happy, the changes don’t belong to any particular version at all and are “invisible” to your reviewers.
 
 ## Bundle changes that share a goal.
@@ -63,6 +73,9 @@ Git isn’t keeping a record of saved changes in your directory yet or adding th
 Next, it’s time to decide how to best explain your changes to your reviewers, by grouping them. For example, I might want to change the title of a blog post, add a filter to all the pictures, and swap the first two sentences because of feedback from my boss. All of those changes would happen on the same branch, but they’re all independent of each other and would have different explanations.
 
 Grouping your changes by their goals helps reviewers to evaluate whether or not your edits do what they were intended to. For example, when I add a filter to all the pictures in a blog post, I change multiple flies to address the same feedback. If I accidentally replace one of the pictures instead of adding a filter and explain all the changes with a note saying “Add a filter to pictures.” my reviewer can easily see that not all the changes I made do what I described.
+
+![Photo by Anurag Arora on Unsplash](/images/anurag-arora-193335-unsplash.jpg)
+[_Photo by Anurag Arora on Unsplash_](https://unsplash.com/photos/4_TruUQJWnY)
 
 You can check which files you’ve saved changes to by using the command `git status`. Files with saved changes appear in red. You can collect (or “add”) the files you want to explain together by using the `git add` command followed by the file path. If you recheck the status, you will see that your added file displays in green.
 
@@ -72,9 +85,12 @@ Adding your files doesn’t commit them to any branch. Using Git, the process of
 
 ## Make a record of your changes.
 
-Once you’re happy with the files you’ve grouped, it’s time to save them to the branch you’re on and create a record in Git to explain the changes you’re requesting. This process is called “committing” the changes. You commit changes to your branch and add a message by typing `git commit -m’ followed by your message in quotes. This command commits your changes to the branch you have currently checked out.
+Once you’re happy with the files you’ve grouped, it’s time to save them to the branch you’re on and create a record in Git to explain the changes you’re requesting. This process is called “committing” the changes. You commit changes to your branch and add a message by typing `git commit -m` followed by your message in quotes. This command commits your changes to the branch you have currently checked out.
 
 As we discussed earlier, your message should tell your reviewer what the changes in the current files are supposed to do. It might seem unnecessary for a blog post or simple change, but for code changes, it isn’t always immediately apparent what each edit does. Breaking these changes down into pieces can help your reviewer evaluate your design and each change. Try to make sure your commit message is short and specific.
+
+![Photo by João Silas on Unsplash](/images/joao-silas-74207-unsplash.jpg)
+[_Photo by João Silas on Unsplash_](https://unsplash.com/photos/I_LgQ8JZFGE)
 
 Commits are the indivisible, atomic units of Git history. Making one change per commit is called “commit atomicity” and is a requirement for contribution to many open source projects. Think of each commit as a sentence in an essay. The commit messages you record cumulatively make up your first draft.
 
@@ -86,11 +102,17 @@ Once you’ve committed your changes, its time to put them online. If you’re s
 
 You can only upload your changes to a GitHub repository that you have permission to control. If you’re contributing to a project that you don’t own, this online repository is your fork of the original project. You upload the branch you made your changes on using the `git push` command followed by the online repo you want to upload to and the branch name.
 
+![Photo by Daria Nepriakhina on Unsplash](/images/daria-nepriakhina-608450-unsplash.jpg)
+[_Photo by Daria Nepriakhina on Unsplash_](https://unsplash.com/photos/guiQYiRxkZY)
+
 If you need to keep working on your branch later, you can make more changes locally, add them, commit them and push the new commits to the same branch.
 
 ## Request a review.
 
 Now that your changes are online as part of a new branch, you can ask reviewers to take a look at them by opening a pull request (PR for short). A pull request is a GitHub-specific concept that makes it easy for reviewers to see the difference between your branch and the original one, and see which changes are part of which commit. Your PR is also where you get feedback from your reviewers. They can comment on your changes line by line and ask for improvements.
+
+![Photo by Trey Gibson on Unsplash](/images/trey-gibson-730708-unsplash.jpg)
+[_Photo by Trey Gibson on Unsplash_](https://unsplash.com/photos/LxphooAHzvc/)
 
 To make those improvements, all you need to do is go back to your local copy, make the requested changes, commit them, and push them to the same branch. Anything you push to your branch automatically shows up on the open PR.
 
