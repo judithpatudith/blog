@@ -1,5 +1,6 @@
 ---
 title: "Mesosphere Inc."
+featured_image: 'images/kiki.JPG'
 date: 2016-10-01T11:22:03-08:00
 draft: false
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Clayton Christensen Institute for Disruptive Innovation"
+featured_image: 'images/gingerbread.JPG'
 date: 2014-10-01T11:22:03-08:00
 draft: false
 ---

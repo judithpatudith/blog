@@ -6,4 +6,4 @@ featured_image: 'images/sand.jpg'
 
 # Judith's CV
 
-What makes me think I'm qualified to talk about this stuff? I'm totally not! But I do have a decent amount of experience in a totally unrelated field...
+In former lives, I have been a nuclear reactor operator, scientific S.C.U.B.A. diver, and staff for a zoo exhibit featuring dinosaurs! Read all about the crazy times here. 

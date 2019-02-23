@@ -1,5 +1,6 @@
 ---
 title: "Kong Inc."
+featured_image: 'images/mars.JPG'
 date: 2018-07-01T11:22:03-08:00
 draft: false
 ---

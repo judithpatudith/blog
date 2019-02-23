@@ -1,5 +1,6 @@
 ---
 title: "Reed Research Reactor"
+featured_image: 'images/alpha.JPG'
 date: 2005-09-01T11:22:03-08:00
 draft: false
 ---
