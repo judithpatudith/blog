@@ -4,7 +4,7 @@ featured_image: '/images/luke-van-zyl-562366-unsplash.jpg'
 date: 2018-11-08T11:22:03-08:00
 draft: false
 ---
-In my last post, I explained why you need to copy a repo so many times to edit it with Git. Don’t know what a “repo” is? See Part 1.
+In my last post I explained why you need to copy a repo so many times to edit it with Git. Don’t know what a “repo” is? See Part 1.
 
 In this post, I’ll explain why saving a change with Git is so complicated. Each step accomplishes a separate goal and serves as a checkpoint where you can backtrack or edit. The whole process includes making testable modifications, grouping those changes by goal or step, explaining your groups of changes and assigning them to a branch, putting the changed branch online, and asking your reviewer to have a look.
 
