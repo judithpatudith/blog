@@ -5,7 +5,7 @@ date: 2019-02-17T09:11:40-08:00
 draft: false
 ---
 
-A pull request is a GitHub-specific concept that allows repository (repo) maintainers to compare changes you request with the current versions of the files you're changing. For background on the process of changing files with Git see the introductions.
+A pull request is a GitHub-specific concept that allows repository (repo) maintainers to compare changes you request with the current versions of the files you're changing. For background on the process of changing files with Git see introductions [one](../git-for-skeptics-1/) and [two](../git-for-skeptics-2/).
 
 # What's the point of a Pull Request?
 
