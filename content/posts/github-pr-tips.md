@@ -5,11 +5,11 @@ date: 2019-02-17T09:11:40-08:00
 draft: false
 ---
 
-A pull request is a GitHub-specific concept that allows reviewers to compare changes you request with the current versions of the files you're changing. For background on the process of changing files with Git see the introductions.
+A pull request is a GitHub-specific concept that allows repository (repo) maintainers to compare changes you request with the current versions of the files you're changing. For background on the process of changing files with Git see the introductions.
 
 # What's the point of a Pull Request?
 
-A Pull Request (PR) is a collection of commits that you ask to copy from one branch of a project to another, plus metadata that GitHub provides to help you and your reviewer talk about the changes in those commits. When you open a PR, you are asking a repo's maintainers evaluate and hopefully accept all of the changes on a particular branch that you created. Your PR should explain two things to your reviewers, what you want to change, and why you want to change it.
+A Pull Request (PR) is a collection of commits that you ask to copy from one branch of a project to another, plus metadata that GitHub provides to help you and your reviewer talk about the changes in those commits. When you open a PR, you are asking a repo's maintainers to evaluate and hopefully accept all of the changes on a particular branch that you created. Your PR should explain two things to your reviewers, what you want to change, and why you want to change it.
 
 # What makes a PR good?
 
@@ -84,7 +84,7 @@ Some repos have formatting inside of the GitHub Graphical User Interface (GUI) w
 
 ## 7. Commit message formatting.
 
-Some repos have guidance on how to format your commit messages. Depending on the way that repo maintainers merge your PR, these rules may apply to every commit message or only the last one, which GitHub generates from the subject and description you add in the GUI. If you aren't sure how to format your commit messages for a project, ask a maintainer.
+Some repos have guidance on how to format your commit messages. Depending on the way that repo maintainers merge your PR, these rules may apply to every commit message or only the last one, which GitHub generates from the subject and description you add in the GUI. If you aren't sure how to format your commit messages for a project, ask a maintainer. If the repo doesn't have any guidelines just write an informative message keeping your reviewer's point of view in mind, or follow the [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0-beta.3/#specification) for bonus points.
 
 # Notes on etiquette.
 
