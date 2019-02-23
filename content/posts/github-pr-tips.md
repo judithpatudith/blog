@@ -74,7 +74,7 @@ _[Photo by Nathan Dumlao on Unsplash](https://unsplash.com/photos/LPRrEJU2GbQ)_
 
 I'll add more details on this in another post. For now, the important thing to know is that if you spend a lot of time making changes, the chances are high that someone else will have changed the official version of the project while you were working. In this case, Git has a few options about where in the branch's commit sequence to put your changes. If your changes and someone else's conflict, things get even more complicated.
 
-# Project specific considerations.
+# Project-specific considerations.
 
 The above set of best practices apply to many of the PRs that you make, especially as a new contributor. Many repos have additional rules about making and submitting changes, which can vary a lot from repo to repo. Before you open your PR (and ideally before you start making your contribution) look in the repo for a file called CONTRIBUTING.md or something similar. If present, it contains useful information about how to make changes, format commits messages, or submit your PR. Of course, if anything in the contributing file disagrees with the guidelines I laid out here, follow the maintainers' instructions rather than mine.
 
