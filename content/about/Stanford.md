@@ -3,6 +3,7 @@ title: "Stanford University"
 featured_image: 'images/starfish.jpg'
 date: 2010-05-01T11:22:03-08:00
 draft: false
+summary: As a graduate student at Hopkins Marine Station I helped teach and mentor undergraduates, and researched which end of a starfish is the head end. 
 ---
 Graduate Student, Teacher, Tour guide (2010 - 2014)
 
