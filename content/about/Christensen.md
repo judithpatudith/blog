@@ -1,8 +1,9 @@
 ---
-title: "Clayton Christensen Institute for Disruptive Innovation"
+title: "Christensen Institute"
 featured_image: 'images/gingerbread.JPG'
 date: 2014-10-01T11:22:03-08:00
 draft: false
+summary: After graduate school I automated office logistics and helped with events and scheduling for the Clayton Christensen Institute of Disruptive Innovation.
 ---
 Community Manager (2014 - 2016)
 

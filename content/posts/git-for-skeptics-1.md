@@ -3,6 +3,7 @@ title: "Git for Skeptics: Part 1 - Why do I need a million copies of this folder
 featured_image: '/images/trevor-cole-389921-unsplash.jpg'
 date: 2018-05-08T10:39:17-08:00
 draft: false
+summary: Learn what makes version control different from text editing software. Review the purpose for forking, cloning, and branching files.
 ---
 # Why write another intro to Git?
 
