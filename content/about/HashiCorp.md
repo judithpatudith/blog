@@ -19,10 +19,10 @@ In 2019 I started writing tutorials and contributing to documentation for Consul
 
 As the Education team grew I had the opportunity to move to a management track. Now I manage the Terraform Education team. 
 
-- Created and monitored metrics dashboards to measure team's progress.
-- Defined the curriculum development plan to cover significant product features. 
+- Created metrics dashboards to measure team's progress.
+- Defined the curriculum development plan to cover product features. 
 - Codified a system to triage and prioritize incoming work.
-- Contributed to style guides, pull request templates, and other team tooling. 
-- Oversaw a successful documentation restructuring and measured its impact. 
-- Built-out the job description and interview loop for technical writers at HashiCorp. 
+- Contributed to style guides, PR templates, and other team tooling. 
+- Oversaw a documentation restructuring and measured its success. 
+- Built-out the job description and interview for technical writers. 
 - Coached team members through career transitions and growth. 
