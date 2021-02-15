@@ -3,6 +3,7 @@ title: "GitHub: 10 Tips for Good Pull Requests"
 featured_image: '/images/vidar-nordli-mathisen-593129-unsplash.jpg'
 date: 2019-02-17T09:11:40-08:00
 draft: false
+summary: Learn how to write pull requests that are easy to review and accept.
 ---
 
 A pull request is a GitHub-specific concept that allows repository (repo) maintainers to compare changes you request with the current versions of the files you're changing. For background on the process of changing files with Git see introductions [one](../git-for-skeptics-1/) and [two](../git-for-skeptics-2/).

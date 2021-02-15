@@ -6,4 +6,4 @@ featured_image: 'images/sand.jpg'
 
 # Judith's CV
 
-In former lives, I have been a nuclear reactor operator, scientific S.C.U.B.A. diver, and staff for a zoo exhibit featuring dinosaurs! Read all about the crazy times here. 
+In former lives, I have been a nuclear reactor operator, scientific S.C.U.B.A. diver, and staff for a zoo exhibit featuring dinosaurs! Read all about my strange experiences here. 

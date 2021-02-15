@@ -3,6 +3,7 @@ title: "Kong Inc."
 featured_image: 'images/mars.JPG'
 date: 2018-07-01T11:22:03-08:00
 draft: false
+summary: In  2018 I joined Kong to run on Developer Marketing as they shifted their focus from API gateways to service meshes.
 ---
 Developer Marketing Manager (2018 - 2019)
 
