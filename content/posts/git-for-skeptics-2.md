@@ -3,6 +3,7 @@ title: "Git for Skeptics: Part 2 - Why is saving changes so freaking complicated
 featured_image: '/images/luke-van-zyl-562366-unsplash.jpg'
 date: 2018-11-08T11:22:03-08:00
 draft: false
+summary: Learn how to make and save changes using git, and the purpose for add, commit, and push. 
 ---
 In my last post I explained why you need to copy a repo so many times to edit it with Git. Don’t know what a “repo” is? See Part 1.
 
