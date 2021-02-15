@@ -1,15 +1,11 @@
 ---
 title: ""
 featured_image: 'images/orangepeel.jpg'
-description: "Tech is confusing for beginners like me"
+description: "Tech can be confusing when you're just starting out."
 ---
 
-# Built by humans, still confusing.
+# Built by humans, still confusing
 
-My training is in evolutionary developmental biology, a field where randomness
-rules. When I got a job in tech, I was excited to work with logical systems
-built by humans.
+As a trained evolutionary biologist, I thought I would be working with more logical systems when I changed careers into tech. But it turns out that even though humans built every part of the technological landscape, it can still be pretty confusing, especially for beginners. 
 
-But I'm slowly discovering that the logic I had hoped for isn't always obvious,
-especially to beginners like me. So here I set out to explain things as I figure
-them out.
+Here you'll find some of my blog posts on the tech basics, and my CV, covering my work history. Feel free to explore! 
