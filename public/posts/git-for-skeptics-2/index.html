@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Tech 4 N00bs  | Git for Skeptics: Part 2 - Why is saving changes so freaking complicated?</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.79.0" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.955516233bcafa4d2a1c13cea63c7b50.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+<link rel="shortcut icon" href="/Hi_profile.png" type="image/x-icon" />
+
+    
+
+    
+
+    <meta property="og:title" content="Git for Skeptics: Part 2 - Why is saving changes so freaking complicated?" />
+<meta property="og:description" content="Learn how to make and save changes using git, and the purpose for add, commit, and push." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://judithpatudith.github.io/posts/git-for-skeptics-2/" />
+<meta property="article:published_time" content="2018-11-08T11:22:03-08:00" />
+<meta property="article:modified_time" content="2018-11-08T11:22:03-08:00" />
+<meta itemprop="name" content="Git for Skeptics: Part 2 - Why is saving changes so freaking complicated?">
+<meta itemprop="description" content="Learn how to make and save changes using git, and the purpose for add, commit, and push.">
+<meta itemprop="datePublished" content="2018-11-08T11:22:03-08:00" />
+<meta itemprop="dateModified" content="2018-11-08T11:22:03-08:00" />
+<meta itemprop="wordCount" content="2388">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Git for Skeptics: Part 2 - Why is saving changes so freaking complicated?"/>
+<meta name="twitter:description" content="Learn how to make and save changes using git, and the purpose for add, commit, and push."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  
+  
+  <header class="cover bg-top" style="background-image: url('https://judithpatudith.github.io/images/luke-van-zyl-562366-unsplash.jpg');">
+    <div class="pb3-m pb6-l bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://judithpatudith.github.io/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Tech 4 N00bs
+    </a>
+    <div class="flex-l items-center">
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/posts/" title="Blog page">
+              Blog
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div hidden>
+  <span id="new-window-0">Opens in a new window</span>
+  <span id="new-window-1">Opens an external site</span>
+  <span id="new-window-2">Opens an external site in a new window</span>
+</div>
+
+
+
+<a href="https://twitter.com/judithpatudith" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-describedby="new-window-0">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+<a href="https://github.com/judithpatudith" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-describedby="new-window-0">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Git for Skeptics: Part 2 - Why is saving changes so freaking complicated?</h1>
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3 ph0-l">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        BLOG
+      </p>
+      <h1 class="f1 athelas mb1">Git for Skeptics: Part 2 - Why is saving changes so freaking complicated?</h1>
+      
+      <time class="f6 mv4 dib tracked" datetime="2018-11-08T11:22:03-08:00">November 8, 2018</time>      
+      
+      
+    </header>
+
+    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>In my last post I explained why you need to copy a repo so many times to edit it with Git. Don’t know what a “repo” is? See Part 1.</p>
+<p>In this post, I’ll explain why saving a change with Git is so complicated. Each step accomplishes a separate goal and serves as a checkpoint where you can backtrack or edit. The whole process includes making testable modifications, grouping those changes by goal or step, explaining your groups of changes and assigning them to a branch, putting the changed branch online, and asking your reviewer to have a look.</p>
+<h1 id="whats-the-point-of-git-history">What’s the point of Git history?</h1>
+<p>When I first started using Git, I thought I was creating a record of my edits so that maintainers could back out my changes if I made a mistake. I was confused about why Git included so many tools for editing change records if the whole point was to keep track of the work I had done.</p>
+<p><img src="/images/giammarco-boscaro-380907-unsplash.jpg" alt="Photo by Giammarco Boscaro on Unsplash">
+<a href="https://unsplash.com/photos/zeH-ljawHtg/"><em>Photo by Giammarco Boscaro on Unsplash</em></a></p>
+<p>What I’ve learned is that Git history isn’t intended to tell the story of my editing process. Instead, it’s supposed to explain what changes I want to make to a file and why. It should help my reviewers evaluate:</p>
+<ol>
+<li>whether or not they agree with my stated goals.</li>
+<li>whether the changes I’ve proposed accomplish what I said they would.</li>
+</ol>
+<p>With that big picture in mind, let’s talk about the purpose of each step to make and propose changes.</p>
+<h1 id="lets-make-history">Lets make history!</h1>
+<p>So, now that we know what we&rsquo;re trying to accomplish, lets walk through each step required to make changes with git, and explain to repo maintainers why they should accept your changes.</p>
+<p>Those steps are:</p>
+<ol>
+<li>Make sure you know which branch you&rsquo;re editing.</li>
+<li>Create a new branch for your changes.</li>
+<li>Make, save, and test your changes.</li>
+<li>Group changes based on their goals.</li>
+<li>Explain those groups of changes.</li>
+<li>Put the changes and explanations online.</li>
+<li>Ask for a review.</li>
+</ol>
+<h2 id="base-changes-on-the-branch-youre-trying-to-edit">Base changes on the branch you’re trying to edit.</h2>
+<p>As we discussed in the previous post, whenever you look at a Git repo, you are always looking at one specific version called a branch. When you switch versions, all the files you are looking at refresh to match the version you selected. It doesn’t matter whether you’re looking at the repo’s directory in your terminal or using your computer’s GUI; if the directory you’re looking at has Git versioning information in it, you are always looking at a specific version.</p>
+<p>When you clone a repo (download it from GitHub), it already has one or more branches in it. You must base your edits on the branch that you ultimately want to change. That way the only differences between the original branch and your new one should be the changes you propose.</p>
+<p><img src="/images/luke-van-zyl-562366-unsplash.jpg" alt="Photo by Luke van Zyl on Unsplash">
+<a href="https://unsplash.com/photos/zrT3d_PI8YA/"><em>Photo by Luke van Zyl on Unsplash</em></a></p>
+<p>Creating a new branch for your changes protects your copy of the original branch from mistakes. If you mess up while editing and accidentally commit unwanted changes, you can always create another new branch from the original version and start over. If you edit the original directly, it’s more complicated to start over when things get too weird to fix.</p>
+<p>Making a new copy of the branch also helps keep your local repo synchronized with the online copy. Git can easily update local branches from the corresponding branch online — if you haven’t changed the local branch since you last synced it with the online one. So, if you plan to propose changes to the same branch frequently, you only want to change the local branch by pulling in approved changes from the online copy. If you don’t own the repository you are contributing to you can set up your local copy to update from the official online copy instead of your online copy, by adding it as a “remote.” Your local branch then updates with all the newest changes, not just the ones you made yourself.</p>
+<p>When you want to start editing, first switch to (or “checkout”) the branch you want to edit with the command <code>git checkout</code> followed by the branch name. Always make sure it is up to date with the official online copy before you create a new branch to edit. You can do this by downloading (or “pulling”) recent fixes from the online copy with the command <code>git pull</code>. Then you’ll be ready to create and switch to your new branch by using the checkout command again with the option <code>-b</code> (which creates a new branch) followed by the new branch name.</p>
+<p>Branch names should only be a word or two, but try to be descriptive. For example, if I were going to create a branch to add this post to a blog, I might name it <code>jm/git-blog_2</code> (my initials and a description of my goal). Your reviewers see your branch’s name and interact with it since they check your changes by downloading your branch, and ultimately accept or reject all the changes on the branch at once.</p>
+<h2 id="make-test-and-save-a-change">Make, test, and save a change.</h2>
+<p>Now that you’ve created a branch for your edits, it’s time to start changing things.</p>
+<p>Some Git repos contain tools that watch your local directory (or a part of it) for saved changes and check to make sure that the code still works. If your repo has tooling like that, you should start it before you start editing, so that you’ll immediately know if you make a breaking mistake.</p>
+<p>For example, the repos for many websites contain code that builds the website on a developer’s computer, makes it available through their browser, and updates when they save their files so they can see their changes live.</p>
+<p>GitHub can’t provide an environment to run tests in the same way that your computer can, and for complicated changes, it’s powerful to get immediate feedback as you work, especially if you’re new to coding. Testing is one of the main reasons to make a local copy of your repo, and you should definitely test if you can. I like to start my tests before I even begin editing, so I know I’m not starting with broken code.</p>
+<p><img src="/images/rawpixel-602156-unsplash.jpg" alt="Photo by rawpixel on Unsplash">
+<a href="https://unsplash.com/photos/cFHTKGEiMbY"><em>Photo by rawpixel on Unsplash</em></a></p>
+<p>Git isn’t keeping a record of saved changes in your directory yet or adding them to any particular branch. It’s annoying that saving changes isn’t enough to edit a file with Git, but there’s a reason: it gives you the ability to experiment without creating Git history and avoids confusing your reviewers with your trial and error. Requiring that you explicitly add changes to the Git record is the control part of version control. Once you’re happy with a change, you can add it to your branch. Before you’re happy, the changes don’t belong to any particular version at all and are “invisible” to your reviewers.</p>
+<h2 id="bundle-changes-that-share-a-goal">Bundle changes that share a goal.</h2>
+<p>Next, it’s time to decide how to best explain your changes to your reviewers, by grouping them. For example, I might want to change the title of a blog post, add a filter to all the pictures, and swap the first two sentences because of feedback from my boss. All of those changes would happen on the same branch, but they’re all independent of each other and would have different explanations.</p>
+<p>Grouping your changes by their goals helps reviewers to evaluate whether or not your edits do what they were intended to. For example, when I add a filter to all the pictures in a blog post, I change multiple flies to address the same feedback. If I accidentally replace one of the pictures instead of adding a filter and explain all the changes with a note saying “Add a filter to pictures.” my reviewer can easily see that not all the changes I made do what I described.</p>
+<p><img src="/images/anurag-arora-193335-unsplash.jpg" alt="Photo by Anurag Arora on Unsplash">
+<a href="https://unsplash.com/photos/4_TruUQJWnY"><em>Photo by Anurag Arora on Unsplash</em></a></p>
+<p>You can check which files you’ve saved changes to by using the command <code>git status</code>. Files with saved changes appear in red. You can collect (or “add”) the files you want to explain together by using the <code>git add</code> command followed by the file path. If you recheck the status, you will see that your added file displays in green.</p>
+<p>It’s possible to add all the files you’ve changed at once, but I’d recommend adding them individually. It’s easy to lose track of the project you’re working on or accidentally save changes to files that aren’t part of your current work. You can exclude those changes by not adding them, which means that they won’t be included in Git history and won’t be sent to your reviewer to check or approve. Grouping files manually, one by one prevents any unintended changes from sneaking onto your branch.</p>
+<p>Adding your files doesn’t commit them to any branch. Using Git, the process of selecting files and committing them to a particular branch are separated, to protect your branch from changes that aren’t related to the piece of work represented by your particular branch. If you accidentally add a file that is unrelated to your current work, you can remove it from the group before you commit it, preventing it from confusing reviewers and keeping your Git history clean.</p>
+<h2 id="make-a-record-of-your-changes">Make a record of your changes.</h2>
+<p>Once you’re happy with the files you’ve grouped, it’s time to save them to the branch you’re on and create a record in Git to explain the changes you’re requesting. This process is called “committing” the changes. You commit changes to your branch and add a message by typing <code>git commit -m</code> followed by your message in quotes. This command commits your changes to the branch you have currently checked out.</p>
+<p>As we discussed earlier, your message should tell your reviewer what the changes in the current files are supposed to do. It might seem unnecessary for a blog post or simple change, but for code changes, it isn’t always immediately apparent what each edit does. Breaking these changes down into pieces can help your reviewer evaluate your design and each change. Try to make sure your commit message is short and specific.</p>
+<p><img src="/images/joao-silas-74207-unsplash.jpg" alt="Photo by João Silas on Unsplash">
+<a href="https://unsplash.com/photos/I_LgQ8JZFGE"><em>Photo by João Silas on Unsplash</em></a></p>
+<p>Commits are the indivisible, atomic units of Git history. Making one change per commit is called “commit atomicity” and is a requirement for contribution to many open source projects. Think of each commit as a sentence in an essay. The commit messages you record cumulatively make up your first draft.</p>
+<p>Git has advanced tools to edit your commit messages, which can improve how the “essay” reads to your reviewers. But, for beginning contributors, a reasonable effort to make one commit explaining each building block of a project is usually enough. Your mentors or reviewers might like to use these tools to help improve your work. Because commits are the atomic units of Git history, frequently committing small changes helps your collaborators make smaller and more specific tweaks.</p>
+<h2 id="put-your-changes-online">Put your changes online.</h2>
+<p>Once you’ve committed your changes, its time to put them online. If you’re still working on your edits, you’ll want to do this to back up your work, and if you’re finished, you’ll need to do it so that your reviewers can evaluate the changes you’re proposing. When you upload changes, you upload everything that has been committed to your branch at once and nothing that you haven’t committed. Make sure you’ve committed your work before trying to upload it.</p>
+<p>You can only upload your changes to a GitHub repository that you have permission to control. If you’re contributing to a project that you don’t own, this online repository is your fork of the original project. You upload the branch you made your changes on using the <code>git push</code> command followed by the online repo you want to upload to and the branch name.</p>
+<p><img src="/images/daria-nepriakhina-608450-unsplash.jpg" alt="Photo by Daria Nepriakhina on Unsplash">
+<a href="https://unsplash.com/photos/guiQYiRxkZY"><em>Photo by Daria Nepriakhina on Unsplash</em></a></p>
+<p>If you need to keep working on your branch later, you can make more changes locally, add them, commit them and push the new commits to the same branch.</p>
+<h2 id="request-a-review">Request a review.</h2>
+<p>Now that your changes are online as part of a new branch, you can ask reviewers to take a look at them by opening a pull request (PR for short). A pull request is a GitHub-specific concept that makes it easy for reviewers to see the difference between your branch and the original one, and see which changes are part of which commit. Your PR is also where you get feedback from your reviewers. They can comment on your changes line by line and ask for improvements.</p>
+<p><img src="/images/trey-gibson-730708-unsplash.jpg" alt="Photo by Trey Gibson on Unsplash">
+<a href="https://unsplash.com/photos/LxphooAHzvc/"><em>Photo by Trey Gibson on Unsplash</em></a></p>
+<p>To make those improvements, all you need to do is go back to your local copy, make the requested changes, commit them, and push them to the same branch. Anything you push to your branch automatically shows up on the open PR.</p>
+<p>PRs can either be merged or closed. There isn’t a way within the pull request process for your reviewer to accept some commits and not others. Once your reviewer is happy with all the changes on your branch, they will merge it into the original branch you wanted to change. Congratulations, your changes are now done!</p>
+<h1 id="geez-that-was-a-lot-of-work">Geez, that was a lot of work!</h1>
+<p>Even though there are many steps required to make changes in Git, they all make sense once you know why they are necessary. Changing files locally on your computer lets you experiment and test your changes without confusing your reviewers. Adding files lets you group them into easily explainable atomic changes. Committing them lets you explain each group and creates your Git history. Pushing them puts them online where reviewers can see them. Opening a PR opens up a conversation about them with your reviewers. Finally, the merge gives your reviewers ultimate control over what changes get made to their projects, so they can make sure that nothing breaks.</p>
+<p>The long process of making and saving changes is designed to facilitate a conversation between you and the maintainers of your target project, and protect that project from breaking changes. I hope my explanation gives you a better understanding of the jargon and process necessary for contributing to open source software with Git! I hope it gives you the patience to slog through the Git documentation — patience that I didn’t have when I was first starting. Happy Hacking!</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6">
+        
+      </div>
+    </main>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://judithpatudith.github.io/" >
+    &copy; 2021 Judith E.L. Malnick
+  </a>
+    <div>
+<div hidden>
+  <span id="new-window-0">Opens in a new window</span>
+  <span id="new-window-1">Opens an external site</span>
+  <span id="new-window-2">Opens an external site in a new window</span>
+</div>
+
+
+
+<a href="https://twitter.com/judithpatudith" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-describedby="new-window-0">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+<a href="https://github.com/judithpatudith" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-describedby="new-window-0">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>
