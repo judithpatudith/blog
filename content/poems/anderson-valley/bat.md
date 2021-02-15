@@ -3,6 +3,7 @@ title: "Bat"
 featured_image: '/images/trevor-cole-389921-unsplash.jpg'
 date: 2018-05-08T10:39:17-08:00
 draft: false
+description: "A poem for the women who hung themselves here."
 ---
 
 There’s a bat in the house again.\
