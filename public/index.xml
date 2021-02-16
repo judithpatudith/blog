@@ -13,8 +13,7 @@
       <pubDate>Fri, 22 Feb 2019 21:08:45 -0800</pubDate>
       
       <guid>https://judithpatudith.github.io/about/hashicorp/</guid>
-      <description>Product Education Engineer (2019 - present)
-I just stared a new job at HashiCorp working on Consul education. Let me get back to you about specific responsibilities once I get settled in. Stay tuned!</description>
+      <description>I got hired at HashiCorp in 2019 to work on Consul tutorials and documentation. Now I run the Terraform Education team, who make the content at learn.hashicorp.com/terraform.</description>
     </item>
     
     <item>
@@ -23,8 +22,7 @@ I just stared a new job at HashiCorp working on Consul education. Let me get bac
       <pubDate>Sun, 17 Feb 2019 09:11:40 -0800</pubDate>
       
       <guid>https://judithpatudith.github.io/posts/github-pr-tips/</guid>
-      <description>A pull request is a GitHub-specific concept that allows repository (repo) maintainers to compare changes you request with the current versions of the files you&amp;rsquo;re changing. For background on the process of changing files with Git see introductions one and two.
-What&amp;rsquo;s the point of a Pull Request? A Pull Request (PR) is a collection of commits that you ask to copy from one branch of a project to another, plus metadata that GitHub provides to help you and your reviewer talk about the changes in those commits.</description>
+      <description>Learn how to write pull requests that are easy to review and accept.</description>
     </item>
     
     <item>
@@ -33,8 +31,7 @@ What&amp;rsquo;s the point of a Pull Request? A Pull Request (PR) is a collectio
       <pubDate>Thu, 08 Nov 2018 11:22:03 -0800</pubDate>
       
       <guid>https://judithpatudith.github.io/posts/git-for-skeptics-2/</guid>
-      <description>In my last post I explained why you need to copy a repo so many times to edit it with Git. Don’t know what a “repo” is? See Part 1.
-In this post, I’ll explain why saving a change with Git is so complicated. Each step accomplishes a separate goal and serves as a checkpoint where you can backtrack or edit. The whole process includes making testable modifications, grouping those changes by goal or step, explaining your groups of changes and assigning them to a branch, putting the changed branch online, and asking your reviewer to have a look.</description>
+      <description>Learn how to make and save changes using git, and the purpose for add, commit, and push.</description>
     </item>
     
     <item>
@@ -43,8 +40,7 @@ In this post, I’ll explain why saving a change with Git is so complicated. Eac
       <pubDate>Sun, 01 Jul 2018 11:22:03 -0800</pubDate>
       
       <guid>https://judithpatudith.github.io/about/kong/</guid>
-      <description>Developer Marketing Manager (2018 - 2019)
- Ghost-wrote abstracts and talk submissions for executives and developers. Designed and wrote copy for the Kong Community Page. Wrote and edited technical marketing materials. Vetted abstracts, coordinated speakers, and M.C.d for our first user conference. Started, gathered content, and ran monthly community calls. Set the vision for a new Kong ambassadors program. Designed a New Relic Insights dashboard to monitor community contributions and growth.</description>
+      <description>In  2018 I joined Kong to run on Developer Marketing as they shifted their focus from API gateways to service meshes.</description>
     </item>
     
     <item>
@@ -53,8 +49,7 @@ In this post, I’ll explain why saving a change with Git is so complicated. Eac
       <pubDate>Tue, 08 May 2018 10:39:17 -0800</pubDate>
       
       <guid>https://judithpatudith.github.io/posts/git-for-skeptics-1/</guid>
-      <description>Why write another intro to Git? I feel nervous using systems that I don’t understand. When I started work as Mesosphere’s community manager, I needed to learn a basic Git workflow quickly so that I could begin maintaining our open source project’s website right away. But, I had a hard time understanding the workflow because I didn’t quite understand the point of using Git.
-The process of forking, cloning, pulling, branching, saving, testing, adding, commenting, committing, pushing, testing again, discussing, and then going six rounds of this process — just to improve website copy — seemed like gross, jargony overkill.</description>
+      <description>Learn what makes version control different from text editing software. Review the purpose for forking, cloning, and branching files.</description>
     </item>
     
     <item>
@@ -63,18 +58,16 @@ The process of forking, cloning, pulling, branching, saving, testing, adding, co
       <pubDate>Sat, 01 Oct 2016 11:22:03 -0800</pubDate>
       
       <guid>https://judithpatudith.github.io/about/mesosphere/</guid>
-      <description>Community Manager: DC/OS &amp;amp; Apache Mesos (2016 - 2018)
- Collaborated with other departments to define market positioning. Managed and tracked advocate conference and event participation. Redesigned the DC/OS project website and drafted marketing collateral. Edited technical and marketing blogs for clarity and tone. Drove DC/OS and Mesos use and adoption. Codified and executed rinse-and-repeat processes for working groups, hackathons.  </description>
+      <description>In 2016 I got my first job in official tech, as the community manager for Apache Mesos and DC/OS.</description>
     </item>
     
     <item>
-      <title>Clayton Christensen Institute for Disruptive Innovation</title>
+      <title>Christensen Institute</title>
       <link>https://judithpatudith.github.io/about/christensen/</link>
       <pubDate>Wed, 01 Oct 2014 11:22:03 -0800</pubDate>
       
       <guid>https://judithpatudith.github.io/about/christensen/</guid>
-      <description>Community Manager (2014 - 2016)
- Facilitated office social activities, and created a culture of communication. Coordinated quarterly company-wide conferences in Boston. Administered Salesforce database, and drove adoption and use. Influenced major and minor office purchases, and kept consumables stocked. Processed reimbursement requests and other financial documents. Scheduled and assisted the institute president. Built tools to automate administrative tasks.  </description>
+      <description>After graduate school I automated office logistics and helped with events and scheduling for the Clayton Christensen Institute of Disruptive Innovation.</description>
     </item>
     
     <item>
@@ -83,8 +76,7 @@ The process of forking, cloning, pulling, branching, saving, testing, adding, co
       <pubDate>Sat, 01 May 2010 11:22:03 -0800</pubDate>
       
       <guid>https://judithpatudith.github.io/about/stanford/</guid>
-      <description>Graduate Student, Teacher, Tour guide (2010 - 2014)
- Developed and delivered undergraduate course content and evaluations. Mentored undergraduates on independent projects and labs. Trained new grad students and undergraduates in lab protocols and procedures. Formalized talking points for marine-station tours. Wrote and developed a website for first-generation graduate school applicants. Conducted outreach to elementary and high school students in the Salinas Valley and surrounding areas.  </description>
+      <description>As a graduate student at Hopkins Marine Station I helped teach and mentor undergraduates, and researched which end of a starfish is the head end.</description>
     </item>
     
     <item>
@@ -93,8 +85,7 @@ The process of forking, cloning, pulling, branching, saving, testing, adding, co
       <pubDate>Wed, 01 Oct 2008 11:22:03 -0800</pubDate>
       
       <guid>https://judithpatudith.github.io/about/ohsu/</guid>
-      <description>Research Assistant I (2008 - 2010)
- Authored academic papers, new lab protocols, and procedures. Ensured security and confidentiality in compliance with HIPAA. Developed and validated clinical assays in compliance with CLIA/CAP standards.  </description>
+      <description>To get research experience after college I genotyped gastrointestinal stromal tumors and papillomas in a cancer-research lab at OHSU.</description>
     </item>
     
     <item>
@@ -103,8 +94,7 @@ The process of forking, cloning, pulling, branching, saving, testing, adding, co
       <pubDate>Thu, 01 May 2008 11:22:03 -0800</pubDate>
       
       <guid>https://judithpatudith.github.io/about/oregonzoo/</guid>
-      <description>Volunteer Coordinator (Summer 2008)
- Managed over 50 volunteers ages 14-80 staffing an animatronic dinosaur exhibit. Coached volunteers in interpretive techniques and exhibit content. Assessed and addressed behavioral problems constructively and confidentially.  </description>
+      <description>After graduating college I got a summer job managing volunteers, calming terrified children, and answering questions for an animatronic dinosaur exhibit at the zoo.</description>
     </item>
     
     <item>
@@ -113,8 +103,7 @@ The process of forking, cloning, pulling, branching, saving, testing, adding, co
       <pubDate>Thu, 01 Sep 2005 11:22:03 -0800</pubDate>
       
       <guid>https://judithpatudith.github.io/about/reactor/</guid>
-      <description>Nuclear Reactor Operator (2005 - 2007)
- Operated a TRIGA Mark I nuclear reactor. Demonstrated and explained nuclear physics for public tour groups. Mentored and trained future reactor operators. Lead emergency drills to ensure safe and clear coordination with regulators, emergency response teams, and media.  </description>
+      <description>During college I became a certified nuclear reactor operator, giving tours, operating the reactor, and helping to design emergency drills.</description>
     </item>
     
   </channel>

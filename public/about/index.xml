@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About on Tech 4 N00bs</title>
+    <title>Curriculum vitae on Tech 4 N00bs</title>
     <link>https://judithpatudith.github.io/about/</link>
-    <description>Recent content in About on Tech 4 N00bs</description>
+    <description>Recent content in Curriculum vitae on Tech 4 N00bs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 22 Feb 2019 21:08:45 -0800</lastBuildDate><atom:link href="https://judithpatudith.github.io/about/index.xml" rel="self" type="application/rss+xml" />
@@ -13,8 +13,7 @@
       <pubDate>Fri, 22 Feb 2019 21:08:45 -0800</pubDate>
       
       <guid>https://judithpatudith.github.io/about/hashicorp/</guid>
-      <description>Product Education Engineer (2019 - present)
-I just stared a new job at HashiCorp working on Consul education. Let me get back to you about specific responsibilities once I get settled in. Stay tuned!</description>
+      <description>I got hired at HashiCorp in 2019 to work on Consul tutorials and documentation. Now I run the Terraform Education team, who make the content at learn.hashicorp.com/terraform.</description>
     </item>
     
     <item>
@@ -23,8 +22,7 @@ I just stared a new job at HashiCorp working on Consul education. Let me get bac
       <pubDate>Sun, 01 Jul 2018 11:22:03 -0800</pubDate>
       
       <guid>https://judithpatudith.github.io/about/kong/</guid>
-      <description>Developer Marketing Manager (2018 - 2019)
- Ghost-wrote abstracts and talk submissions for executives and developers. Designed and wrote copy for the Kong Community Page. Wrote and edited technical marketing materials. Vetted abstracts, coordinated speakers, and M.C.d for our first user conference. Started, gathered content, and ran monthly community calls. Set the vision for a new Kong ambassadors program. Designed a New Relic Insights dashboard to monitor community contributions and growth.</description>
+      <description>In  2018 I joined Kong to run on Developer Marketing as they shifted their focus from API gateways to service meshes.</description>
     </item>
     
     <item>
@@ -33,18 +31,16 @@ I just stared a new job at HashiCorp working on Consul education. Let me get bac
       <pubDate>Sat, 01 Oct 2016 11:22:03 -0800</pubDate>
       
       <guid>https://judithpatudith.github.io/about/mesosphere/</guid>
-      <description>Community Manager: DC/OS &amp;amp; Apache Mesos (2016 - 2018)
- Collaborated with other departments to define market positioning. Managed and tracked advocate conference and event participation. Redesigned the DC/OS project website and drafted marketing collateral. Edited technical and marketing blogs for clarity and tone. Drove DC/OS and Mesos use and adoption. Codified and executed rinse-and-repeat processes for working groups, hackathons.  </description>
+      <description>In 2016 I got my first job in official tech, as the community manager for Apache Mesos and DC/OS.</description>
     </item>
     
     <item>
-      <title>Clayton Christensen Institute for Disruptive Innovation</title>
+      <title>Christensen Institute</title>
       <link>https://judithpatudith.github.io/about/christensen/</link>
       <pubDate>Wed, 01 Oct 2014 11:22:03 -0800</pubDate>
       
       <guid>https://judithpatudith.github.io/about/christensen/</guid>
-      <description>Community Manager (2014 - 2016)
- Facilitated office social activities, and created a culture of communication. Coordinated quarterly company-wide conferences in Boston. Administered Salesforce database, and drove adoption and use. Influenced major and minor office purchases, and kept consumables stocked. Processed reimbursement requests and other financial documents. Scheduled and assisted the institute president. Built tools to automate administrative tasks.  </description>
+      <description>After graduate school I automated office logistics and helped with events and scheduling for the Clayton Christensen Institute of Disruptive Innovation.</description>
     </item>
     
     <item>
@@ -53,8 +49,7 @@ I just stared a new job at HashiCorp working on Consul education. Let me get bac
       <pubDate>Sat, 01 May 2010 11:22:03 -0800</pubDate>
       
       <guid>https://judithpatudith.github.io/about/stanford/</guid>
-      <description>Graduate Student, Teacher, Tour guide (2010 - 2014)
- Developed and delivered undergraduate course content and evaluations. Mentored undergraduates on independent projects and labs. Trained new grad students and undergraduates in lab protocols and procedures. Formalized talking points for marine-station tours. Wrote and developed a website for first-generation graduate school applicants. Conducted outreach to elementary and high school students in the Salinas Valley and surrounding areas.  </description>
+      <description>As a graduate student at Hopkins Marine Station I helped teach and mentor undergraduates, and researched which end of a starfish is the head end.</description>
     </item>
     
     <item>
@@ -63,8 +58,7 @@ I just stared a new job at HashiCorp working on Consul education. Let me get bac
       <pubDate>Wed, 01 Oct 2008 11:22:03 -0800</pubDate>
       
       <guid>https://judithpatudith.github.io/about/ohsu/</guid>
-      <description>Research Assistant I (2008 - 2010)
- Authored academic papers, new lab protocols, and procedures. Ensured security and confidentiality in compliance with HIPAA. Developed and validated clinical assays in compliance with CLIA/CAP standards.  </description>
+      <description>To get research experience after college I genotyped gastrointestinal stromal tumors and papillomas in a cancer-research lab at OHSU.</description>
     </item>
     
     <item>
@@ -73,8 +67,7 @@ I just stared a new job at HashiCorp working on Consul education. Let me get bac
       <pubDate>Thu, 01 May 2008 11:22:03 -0800</pubDate>
       
       <guid>https://judithpatudith.github.io/about/oregonzoo/</guid>
-      <description>Volunteer Coordinator (Summer 2008)
- Managed over 50 volunteers ages 14-80 staffing an animatronic dinosaur exhibit. Coached volunteers in interpretive techniques and exhibit content. Assessed and addressed behavioral problems constructively and confidentially.  </description>
+      <description>After graduating college I got a summer job managing volunteers, calming terrified children, and answering questions for an animatronic dinosaur exhibit at the zoo.</description>
     </item>
     
     <item>
@@ -83,8 +76,7 @@ I just stared a new job at HashiCorp working on Consul education. Let me get bac
       <pubDate>Thu, 01 Sep 2005 11:22:03 -0800</pubDate>
       
       <guid>https://judithpatudith.github.io/about/reactor/</guid>
-      <description>Nuclear Reactor Operator (2005 - 2007)
- Operated a TRIGA Mark I nuclear reactor. Demonstrated and explained nuclear physics for public tour groups. Mentored and trained future reactor operators. Lead emergency drills to ensure safe and clear coordination with regulators, emergency response teams, and media.  </description>
+      <description>During college I became a certified nuclear reactor operator, giving tours, operating the reactor, and helping to design emergency drills.</description>
     </item>
     
   </channel>
