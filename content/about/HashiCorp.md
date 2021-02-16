@@ -10,14 +10,14 @@ summary: I got hired at HashiCorp in 2019 to work on Consul tutorials and docume
 
 In 2019 I started writing tutorials and contributing to documentation for Consul, HashiCorp's networking and service mesh product. 
 
-- Built and authored tutorials on HashiCorp's [Learn Platform](learn.hashicorp.com/consul).
+- Built and authored tutorials on HashiCorp's [Learn Platform](https://learn.hashicorp.com/consul).
 - Contributed to product documentation.
 - Designed and taught full-day workshops during HashiCorp's community conferences.
 - Supported major software releases.
 
 ## Education Engineering Manager (2019 - Present)
 
-As the Education team grew I had the opportunity to move to a management track. Now I manage the Terraform Education team. 
+As the Education team grew I had the opportunity to move to a management track. Now I manage the Terraform Education team. We work on the [Terraform documentation](https://www.terraform.io/docs/index.html) and [Learn tutorials](https://learn.hashicorp.com/terraform).
 
 - Created metrics dashboards to measure team's progress.
 - Defined the curriculum development plan to cover product features. 
