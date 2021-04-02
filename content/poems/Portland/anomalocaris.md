@@ -50,8 +50,8 @@ Arthropod, Annelid?\
 Even my phylum a beguiling mystery,\
 he labels me with his new name,\
 a thin mark on fragile paper,\
-a twitch in the oxygen-bloated air.\
-Nothing like my true and ancient one.\
+a twitch in the oxygen-bloated air,\
+nothing like my true and ancient one.\
 My old name was an electric pulse.\
 An odor diffusing through the water.\
 Turbulence in the boundary layer.\
