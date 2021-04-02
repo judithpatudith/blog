@@ -4,7 +4,10 @@ featured_image: '/images/trevor-cole-389921-unsplash.jpg'
 date: 2018-05-08T10:39:17-08:00
 draft: false
 summary: "A poem for the women who hung themselves here."
+<<<<<<< HEAD
 description: "A poem for the women who hung themselves here."
+=======
+>>>>>>> 4018aacea59c4b872edc185bf396b9b52cdbf014
 ---
 
 There’s a bat in the house again.\
