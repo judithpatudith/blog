@@ -22,7 +22,7 @@ a suffocating mudslide\
 on the floor of the sea.\
 What was left of me is\
 now replaced by rock.\
-A piece of me that never\
+A piece of me never\
 left that bed.
 
 Once marine, now subterranean,\

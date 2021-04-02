@@ -6,6 +6,6 @@ featured_image: 'images/genetics.jpg'
 ## Poems for:
 
 [Portland](/poems/portland)\
-Monterey\
+Monterey (TBD)\
 [The Anderson Valley](/poems/anderson-valley)\
-Bellingham
+Bellingham (TBD)
