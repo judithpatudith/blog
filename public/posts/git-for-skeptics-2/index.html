@@ -31,15 +31,13 @@
     
 
     <meta property="og:title" content="Git for Skeptics: Part 2 - Why is saving changes so freaking complicated?" />
-<meta property="og:description" content="In my last post I explained why you need to copy a repo so many times to edit it with Git. Don’t know what a “repo” is? See Part 1.
-In this post, I’ll explain why saving a change with Git is so complicated. Each step accomplishes a separate goal and serves as a checkpoint where you can backtrack or edit. The whole process includes making testable modifications, grouping those changes by goal or step, explaining your groups of changes and assigning them to a branch, putting the changed branch online, and asking your reviewer to have a look." />
+<meta property="og:description" content="Learn how to make and save changes using git, and the purpose for add, commit, and push." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://judithpatudith.github.io/posts/git-for-skeptics-2/" />
 <meta property="article:published_time" content="2018-11-08T11:22:03-08:00" />
 <meta property="article:modified_time" content="2018-11-08T11:22:03-08:00" />
 <meta itemprop="name" content="Git for Skeptics: Part 2 - Why is saving changes so freaking complicated?">
-<meta itemprop="description" content="In my last post I explained why you need to copy a repo so many times to edit it with Git. Don’t know what a “repo” is? See Part 1.
-In this post, I’ll explain why saving a change with Git is so complicated. Each step accomplishes a separate goal and serves as a checkpoint where you can backtrack or edit. The whole process includes making testable modifications, grouping those changes by goal or step, explaining your groups of changes and assigning them to a branch, putting the changed branch online, and asking your reviewer to have a look.">
+<meta itemprop="description" content="Learn how to make and save changes using git, and the purpose for add, commit, and push.">
 <meta itemprop="datePublished" content="2018-11-08T11:22:03-08:00" />
 <meta itemprop="dateModified" content="2018-11-08T11:22:03-08:00" />
 <meta itemprop="wordCount" content="2388">
@@ -49,8 +47,7 @@ In this post, I’ll explain why saving a change with Git is so complicated. Eac
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Git for Skeptics: Part 2 - Why is saving changes so freaking complicated?"/>
-<meta name="twitter:description" content="In my last post I explained why you need to copy a repo so many times to edit it with Git. Don’t know what a “repo” is? See Part 1.
-In this post, I’ll explain why saving a change with Git is so complicated. Each step accomplishes a separate goal and serves as a checkpoint where you can backtrack or edit. The whole process includes making testable modifications, grouping those changes by goal or step, explaining your groups of changes and assigning them to a branch, putting the changed branch online, and asking your reviewer to have a look."/>
+<meta name="twitter:description" content="Learn how to make and save changes using git, and the purpose for add, commit, and push."/>
 
   </head>
 
@@ -74,14 +71,14 @@ In this post, I’ll explain why saving a change with Git is so complicated. Eac
         <ul class="pl0 mr3">
           
           <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/about/" title="About page">
-              About
+            <a class="hover-white no-underline white-90" href="/posts/" title="Blog page">
+              Blog
             </a>
           </li>
           
           <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/posts/" title="Blog page">
-              Blog
+            <a class="hover-white no-underline white-90" href="/about/" title="Curriculum vitae page">
+              Curriculum vitae
             </a>
           </li>
           

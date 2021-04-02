@@ -17,7 +17,7 @@ In 2019 I started writing tutorials and contributing to documentation for Consul
 
 ## Education Engineering Manager, Terraform (2019 - Present)
 
-As the Education team grew I had the opportunity to move to a management track. Now I manage the Terraform Education team. 
+As the Education team grew I had the opportunity to move to a management track. Now I manage the Terraform Education team. We work on the [Terraform documentation](https://www.terraform.io/docs/index.html) and [Learn tutorials](https://learn.hashicorp.com/terraform).
 
 My team owns the docs on [terraform.io](https://www.terraform.io/docs/index.html) and builds the tutorials on our [Learn Platform](https://learn.hashicorp.com/terraform).
 
